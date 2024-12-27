@@ -8,9 +8,9 @@ import { CommonModule } from '@angular/common';
   styleUrl: './navbar.component.less'
 })
 export class NavbarComponent {
-  isMenuOpen = false; // Track the menu's state
+  isMenuOpen = false; 
 
   toggleMenu() {
-    this.isMenuOpen = !this.isMenuOpen; // Toggle the menu state
+    this.isMenuOpen = !this.isMenuOpen; 
   }
 }
