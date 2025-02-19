@@ -33,6 +33,7 @@
             ],
             "styles": [
               "src/styles.less",
+              "src/variables.less",
               "node_modules/aos/dist/aos.css"
             ],
             "scripts": [],

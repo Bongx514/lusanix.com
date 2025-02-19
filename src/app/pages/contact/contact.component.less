@@ -1,3 +1,11 @@
+@import 'src/variables.less';
+
 section {
     background-image: url('https://img3.wallspic.com/previews/2/8/5/1/4/141582/141582-blue-winter-atmosphere-nature-mountainous_landforms-x750.jpg');
+}
+
+@media (min-width: @mobile-breakpoint) and (max-width: @tablet-breakpoint) {
+    section {
+        height: 916px;
+    }
 }
