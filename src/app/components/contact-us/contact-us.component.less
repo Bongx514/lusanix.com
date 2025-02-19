@@ -1,7 +1,16 @@
-@mobile-breakpoint: 786px;
+@mobile-breakpoint: 360px;
+@tablet-breakpoint: 786px;
+@mac-breakpoint: 1020px;
+@desktop-breakpoint: 1270px;
 
-@media screen and (max-width: @mobile-breakpoint) {
+@media screen and (max-width: @tablet-breakpoint) {
     section {
         height: 916px;
+    }
+}
+
+@media screen and (min-width: @mobile-breakpoint) {
+    section {
+        background-image: url('https://img3.wallspic.com/previews/2/8/5/1/4/141582/141582-blue-winter-atmosphere-nature-mountainous_landforms-x750.jpg');
     }
 }
